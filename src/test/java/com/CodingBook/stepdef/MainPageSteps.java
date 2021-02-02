@@ -26,17 +26,22 @@ public class MainPageSteps {
         String expected = "CodingBook – Shape your future";
         String actual = MyDriver.get().getTitle();
         Assert.assertEquals(expected, actual);
+//        System.out.println(actual);
+        logger.info("CodingBook title : {}", actual);
     }
 
     @When("User checks if CodingBook logo is visible on the top left corner")
     public void userChecksIfCodingBookLogoIsVisibleOnTheTopLeftCorner() {
+        mainPage.checkingLogo();
     }
 
     @And("User clicks CodingBook logo")
     public void userClicksCodingBookLogo() {
+        mainPage.clickLogo();
     }
 
-    @Then("Test if user landed CodingBook homepage")
-    public void testIfUserLandedCodingBookHomepage() {
+    @Then("Verify that info@ email address is present")
+    public void verifyThatInfoEmailAddressIsPresent() {
+        mainPage.verifyInfoEmailAddress();
     }
 }
