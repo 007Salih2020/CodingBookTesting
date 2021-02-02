@@ -14,6 +14,7 @@ Feature: Comment Test
     Examples:
       | Comment | Name | Email |
       |  C1     |  Ahmet|   ahmet@gmail.com |
+      |  coment | ali   | Ali@gmail.com     |
 
 
 

@@ -26,7 +26,6 @@ public class MainPageSteps {
         String expected = "CodingBook – Shape your future";
         String actual = MyDriver.get().getTitle();
         Assert.assertEquals(expected, actual);
-//        System.out.println(actual);
         logger.info("CodingBook title : {}", actual);
     }
 
