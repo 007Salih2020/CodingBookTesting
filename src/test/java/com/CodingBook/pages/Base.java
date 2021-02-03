@@ -12,6 +12,7 @@ public class Base {
     public Base() {
         PageFactory.initElements(MyDriver.get(), this);
     }
+
     public static void waitSomeTime(Long milliSeconds){
         try {
             Thread.sleep(milliSeconds);

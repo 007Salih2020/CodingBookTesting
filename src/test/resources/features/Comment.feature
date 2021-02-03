@@ -12,9 +12,8 @@ Feature: Comment Test
     When click on Post Comment button
     Then verify success Comment
     Examples:
-      | Comment | Name | Email |
-      |  C1     |  Ahmet|   ahmet@gmail.com |
-      |  coment | ali   | Ali@gmail.com     |
+      | Comment       | Name    | Email             |
+      |  Comment-3    |  Ahmet  |   ahmet@gmail.com |
 
 
 

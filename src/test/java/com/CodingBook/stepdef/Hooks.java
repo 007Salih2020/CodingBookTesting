@@ -20,8 +20,8 @@ public class Hooks {
         logger.info("##### SETUP STARTED (HOOK) ######");
         MyDriver.get().manage().window().maximize();
         MyDriver.get().get(ConfigurationReader.getProperty("baseUrl"));
-        MyDriver.get().manage().deleteAllCookies();
-        MyDriver.get().navigate().refresh();
+//        MyDriver.get().manage().deleteAllCookies();
+//        MyDriver.get().navigate().refresh();
 
         MyDriver.get().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
