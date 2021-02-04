@@ -2,5 +2,8 @@
 /Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/stepdef/MainPageSteps.java
 /Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/pages/MainPage.java
 /Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/pages/Base.java
+/Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/pages/Comment.java
+/Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/runner/Runner.java
 /Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/utils/MyDriver.java
 /Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/stepdef/Hooks.java
+/Users/Apple/IdeaProjects/CodingBookTesting/src/test/java/com/CodingBook/stepdef/CommentSteps.java

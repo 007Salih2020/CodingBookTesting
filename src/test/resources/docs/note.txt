@@ -3,3 +3,5 @@ Soru 1- Hooks ve Step class larinin icinde bulunan(MyDriver.get().get(Configurat
 
 Soru 2- Feature dosyasinin altinda Example olarak verilen datalari neden Test ediyoruz?
         Sadece 1 yada 2 tane Test etsek yeterli degil mi?
+
+Soru 3- TestNG ve JUnit arasindaki farklar nelerdir?

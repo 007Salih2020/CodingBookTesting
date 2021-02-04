@@ -13,7 +13,7 @@ Feature: Comment Test
     Then verify success Comment
     Examples:
       | Comment       | Name    | Email             |
-      |  Comment-3    |  Ahmet  |   ahmet@gmail.com |
+      |  Comment-4    |  Ahmet  |   ahmet@gmail.com |
 
 
 

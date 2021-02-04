@@ -7,5 +7,3 @@ Feature:
     And check the remember username checkbox
     When click on login button
     Then verify success login
-
-#    I created scenario about main page.
