@@ -144,6 +144,19 @@
         <debuglevel>lines,vars,source</debuglevel> 
     </configuration>
 </plugin> 
+                 
+                 <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <executions>
+        <execution>
+            <id>analyze-deps</id>
+            <goals>
+                <goal>analyze-only</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
 
 <!--            Provides pretty html reports for Cucumber. It works by generating html from the cucumber json file.-->
             <plugin>
