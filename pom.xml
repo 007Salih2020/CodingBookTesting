@@ -124,6 +124,7 @@
                     <threadCountClasses>2</threadCountClasses>
                     <forkCount>3</forkCount>
                     <testFailureIgnore>true</testFailureIgnore>
+                    <trimStackTrace>false</trimStackTrace>
 
 <!--            *Runner means, it will include runner classes name ends with runner.
                 *.java means run all java files.-->
